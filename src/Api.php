@@ -87,17 +87,6 @@ class Api {
     }
 
     public function request($url, $data = array(), $options = array()) {
-        if(func_num_args() == 2) {
-            $options = $data;
-        }
-
-        if(isset($options['data'])) {
-            $data = $options['data'];
-        }
-        else {
-            $data = array();
-        }
-
         $data['token'] = $this->token;
         $options['data'] = $data;
         $url = $this->url . '/' . preg_replace('/^[\/]+/', '', $url);

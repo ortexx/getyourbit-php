@@ -43,7 +43,6 @@ Free services don't require authorization.
 Logout from the API. It gives an error without authorization before.
 
 ### .request($url, $data=array(), options=array())
-### .request($url, $options=array('data'=>array()))
 Request to the API without scrolling to get data.     
 It returns all response body as object.
 

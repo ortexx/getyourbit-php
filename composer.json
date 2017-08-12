@@ -1,7 +1,7 @@
 {
   "name": "ortex/getyourbit",
   "description": "Getyourbit.com client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/ortexx/getyourbit-php",
   "license": "MIT",
   "authors": [
