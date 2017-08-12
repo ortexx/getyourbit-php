@@ -2,7 +2,7 @@
 /**
  * Getyourbit.com client
  *
- * @package GetYorBit
+ * @package GetYourBit
  */
 
 namespace GetYourBit;
