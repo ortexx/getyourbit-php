@@ -112,6 +112,7 @@ class Api {
 
         $options['data'] = $data;
         $res = array();
+        
         return $this->next($res, $url, $options, $callback, null);
     }
 }
