@@ -33,16 +33,16 @@ $api->logout();
 ```
 
 ## Api
-### .auth($login, $password, options=array())
+### .auth($login, $password, $options=array())
 Login to the API. You can get __$login__ and __$password__ [on the site](https://getyourbit.com) after a subscription.  
-__options__ is [requests](https://github.com/rmccue/Requests) module options. 
+__$options__ is [requests](https://github.com/rmccue/Requests) module options. 
 You can also pass __headers__ as option  
 Free services don't require authorization.
 
 ### .logout()
 Logout from the API. It gives an error without authorization before.
 
-### .request($url, $data=array(), options=array())
+### .request($url, $data=array(), $options=array())
 Request to the API without scrolling to get data.     
 It returns all response body as object.
 
